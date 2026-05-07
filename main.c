@@ -27,7 +27,8 @@ void analytics();
 int main() {
     int choice;
     loadTransactions();
-
+    
+   printf("Welcome to Personal Finance Management System!\n");
     while(1) {
         printf("\n=== Personal Finance Management System ===\n");
         printf("1. Add Transaction\n");
